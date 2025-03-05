@@ -1,6 +1,6 @@
 
 module Upcounter(
-    input clk,rst,run,
+    input clk,rst,run,run_stop,
     output [7:0] seg,
 	output [3:0] seg_com
 );
@@ -10,7 +10,7 @@ module Upcounter(
 
 
     clock_divider_10 U_clk_10( .clk(clk), .rst(rst), .clk_10hz(clk_10hz));
-    counter_10000 U_counter( .clk(clk_10hz), .rst(rst), .cnt(w_cnt));
+    counter_10000 U_counter( .clk(clk_10hz), .rst(rst), .cnt(w_cnt), .run_stop(run_stop) );
     fnd_controller U_fnd_ctrl(.clk(clk), .run(run), .rst(rst), .bcd(w_cnt), .seg(seg), .seg_com(seg_com));
 
 endmodule
