@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="페이지-1" id="zPif00VvmSsLWhCRvnTK">
+    <mxGraphModel dx="988" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-64" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="600" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-6" value="PC" style="rounded=1;whiteSpace=wrap;html=1;direction=south;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="119.83" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-7" value="Clock" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="319.83" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" target="fXbF8mR_zWlhSQasz0e5-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.91499999999996" y="239.9999999999999" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="300" y="280" />
+              <mxPoint x="180" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-30" value="RX_wr== &#39;1&#39;&lt;font style=&quot;color: light-dark(rgb(66, 160, 59), rgb(237, 237, 237));&quot;&gt; // RX_done == &#39;1&#39;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="fXbF8mR_zWlhSQasz0e5-29">
+          <mxGeometry x="-0.2833" y="-2" relative="1" as="geometry">
+            <mxPoint x="-48" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-21" value="RX" style="rounded=1;whiteSpace=wrap;html=1;direction=south;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="119.83" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-26" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="fXbF8mR_zWlhSQasz0e5-6" target="fXbF8mR_zWlhSQasz0e5-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="400" as="sourcePoint" />
+            <mxPoint x="380" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-27" value="" style="endArrow=classic;html=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" target="fXbF8mR_zWlhSQasz0e5-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460.0849999999998" y="199.9999999999999" as="sourcePoint" />
+            <mxPoint x="360" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-33" value="TX_START = &#39;1&#39;&lt;font style=&quot;color: light-dark(rgb(66, 160, 59), rgb(237, 237, 237));&quot;&gt; // TX_empty == &#39;0&#39;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="fXbF8mR_zWlhSQasz0e5-27">
+          <mxGeometry x="-0.0808" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="fXbF8mR_zWlhSQasz0e5-28" target="fXbF8mR_zWlhSQasz0e5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-43" value="RX_rd == &#39;1&#39; &lt;font style=&quot;color: light-dark(rgb(66, 160, 59), rgb(237, 237, 237));&quot;&gt;// TX_full = &#39;0&#39;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="fXbF8mR_zWlhSQasz0e5-42">
+          <mxGeometry x="-0.2293" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-28" value="RX FIFO_wdata" style="rounded=1;whiteSpace=wrap;html=1;direction=south;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="120.17" y="320" width="119.83" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-41" value="RX FIFO_rdata" style="rounded=1;whiteSpace=wrap;html=1;direction=south;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="120.17" y="400" width="119.83" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="fXbF8mR_zWlhSQasz0e5-48" target="fXbF8mR_zWlhSQasz0e5-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-57" value="TX_rd == &#39;1&#39; &lt;font style=&quot;color: light-dark(rgb(66, 160, 59), rgb(237, 237, 237));&quot;&gt;// TX_done == &#39;0&#39;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="fXbF8mR_zWlhSQasz0e5-53">
+          <mxGeometry x="-0.0466" y="-3" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-48" value="TX FIFO_wdata" style="rounded=1;whiteSpace=wrap;html=1;direction=south;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="519.83" y="400" width="119.83" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-51" value="TX" style="rounded=1;whiteSpace=wrap;html=1;direction=south;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="119.83" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-54" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="fXbF8mR_zWlhSQasz0e5-52" target="fXbF8mR_zWlhSQasz0e5-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-55" value="RX_rd == &#39;1&#39; &lt;font style=&quot;color: light-dark(rgb(66, 160, 59), rgb(237, 237, 237));&quot;&gt;// TX_done == &#39;0&#39;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="fXbF8mR_zWlhSQasz0e5-54">
+          <mxGeometry x="0.2865" y="-1" relative="1" as="geometry">
+            <mxPoint x="49" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-52" value="TX FIFO_wdata" style="rounded=1;whiteSpace=wrap;html=1;direction=south;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="519.83" y="320" width="119.83" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-60" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="420" as="sourcePoint" />
+            <mxPoint x="359.8299999999999" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-61" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fXbF8mR_zWlhSQasz0e5-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="320" as="sourcePoint" />
+            <mxPoint x="360" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-62" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fXbF8mR_zWlhSQasz0e5-7" target="fXbF8mR_zWlhSQasz0e5-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fXbF8mR_zWlhSQasz0e5-63" value="TX_wr == &#39;1&#39; &lt;font style=&quot;color: light-dark(rgb(66, 160, 59), rgb(237, 237, 237));&quot;&gt;// RX_empty = &#39;0&#39;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="379.9193103448276" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
